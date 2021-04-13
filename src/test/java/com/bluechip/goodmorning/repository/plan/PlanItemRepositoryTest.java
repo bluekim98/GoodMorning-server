@@ -53,6 +53,5 @@ class PlanItemRepositoryTest {
         assertThat(savedUser.getEmail()).isEqualTo(email);
         assertThat(savedUser.getPlanItemList().size()).isEqualTo(1);
         assertThat(savedUser.getPlanItemList().get(0).getContents()).isEqualTo(contents);
-
     }
 }
