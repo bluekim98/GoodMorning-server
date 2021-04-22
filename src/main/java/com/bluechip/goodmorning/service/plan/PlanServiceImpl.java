@@ -7,9 +7,11 @@ import com.bluechip.goodmorning.repository.plan.PlanItemRepository;
 import com.bluechip.goodmorning.repository.user.UserRepositoty;
 import javassist.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.*;
 
+@Service
 public class PlanServiceImpl implements PlanService{
 
     final private PlanItemRepository planItemRepository;
